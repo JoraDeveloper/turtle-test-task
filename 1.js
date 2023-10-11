@@ -9,6 +9,7 @@ function turtle(goUp = 50, sleepDown = 30) {
     }
     currentHeight -= sleepDown;
   }
+  return day;
 }
 
 module.exports = {
